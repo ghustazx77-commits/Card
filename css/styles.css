@@ -17,8 +17,12 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: var(--color-grey-900);
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 ol, ul {
     list-style: none;
 }
@@ -30,14 +34,10 @@ a {
 
 
 .container {
-    width: 100%;
-    max-width: 400px;
-    min-height: 100vh;
-
-    margin: 0 auto;
-    padding: 40px 20px;
-
-    border-radius: 0;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 
